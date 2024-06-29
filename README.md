@@ -110,8 +110,4 @@ This project uses **PythonAnywhere** for cloud-based scheduling and execution. H
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-## Example Terminal Output
 
-When the `main.py` script runs, you should see output similar to the following in your terminal:
-
-![Terminal Output](path/to/terminal_output_image.png)
