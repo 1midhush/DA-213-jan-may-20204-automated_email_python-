@@ -102,6 +102,19 @@ This project uses **PythonAnywhere** for cloud-based scheduling and execution. H
     - Navigate to the "Tasks" tab.
     - Add a new task to run `main.py` at your desired schedule.
 
+## CV Points Explanation
+
+- **Automated attendance data retrieval and preprocessing from Google Sheets using Pandas and Requests, implemented ETL process with error handling and logging to ensure data integrity.**
+    - **ETL (Extract, Transform, Load)**: This refers to the process of extracting data from a source, transforming it into a suitable format, and loading it into a destination. In this project, data is extracted from Google Sheets, cleaned, and validated before processing.
+    - **Pandas**: A powerful data manipulation library in Python used for data cleaning and transformation.
+    - **Requests**: A library for making HTTP requests in Python, used here to fetch data from Google Sheets.
+    - **Error Handling and Logging**: Implemented to ensure that any issues during the data fetching and processing are properly handled and recorded.
+
+- **Developed and deployed an email notification system on PythonAnywhere, leveraging SMTP protocol and APScheduler for secure, periodic email dispatch based on attendance criteria.**
+    - **SMTP (Simple Mail Transfer Protocol)**: A protocol for sending emails. Used here to send attendance reminder emails.
+    - **APScheduler**: A library for scheduling tasks in Python, used to schedule the periodic execution of the email sending function.
+    - **PythonAnywhere**: A cloud service used to host and run the Python scripts on a schedule, ensuring the system operates continuously without manual intervention.
+
 ## Customization
 
 - **Email Content**: Modify the email content in `send_email.py` as per your requirements.
@@ -110,4 +123,3 @@ This project uses **PythonAnywhere** for cloud-based scheduling and execution. H
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
