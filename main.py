@@ -11,9 +11,9 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import datetime
 
 
-SHEET_ID = "1XuHmlXTpq9KpIUguHRbYyTVS342Zer9SkVHXmtUtYWk"
+SHEET_ID = "1qnAWraUMfVifNwauGRt4_vM_I8_acz3tJUBRSP4yyYU"
 SHEET_NAME = "Sheet1"
-URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}"
+URL = f"https://docs.google.com/spreadsheets/d/1qnAWraUMfVifNwauGRt4_vM_I8_acz3tJUBRSP4yyYU/edit?usp=sharing"
 
 def load_df(url):
     df = pd.read_csv(url)
